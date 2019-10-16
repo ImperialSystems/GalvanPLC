@@ -1,0 +1,654 @@
+EESchema Schematic File Version 4
+LIBS:Proto-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Isolator:4N28 U?
+U 1 1 5CB15914
+P 10000 900
+AR Path="/5CB15914" Ref="U?"  Part="1" 
+AR Path="/5CB0C9EE/5CB15914" Ref="U2"  Part="1" 
+F 0 "U2" H 10000 1225 50  0000 C CNN
+F 1 "4N28" H 10000 1134 50  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 9800 700 50  0001 L CIN
+F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 10000 900 50  0001 L CNN
+	1    10000 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CB1591B
+P 10450 750
+AR Path="/5CB1591B" Ref="#PWR?"  Part="1" 
+AR Path="/5CB0C9EE/5CB1591B" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 10450 600 50  0001 C CNN
+F 1 "+5V" H 10465 923 50  0000 C CNN
+F 2 "" H 10450 750 50  0001 C CNN
+F 3 "" H 10450 750 50  0001 C CNN
+	1    10450 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 750  10450 900 
+Wire Wire Line
+	10450 900  10300 900 
+Text GLabel 10550 1000 2    50   Input ~ 0
+IX0.0
+Text GLabel 8950 1100 0    50   Input ~ 0
+IN0.1
+Text GLabel 8950 800  0    50   Input ~ 0
+IN0
+$Comp
+L Device:R R?
+U 1 1 5CB15926
+P 9200 800
+AR Path="/5CB15926" Ref="R?"  Part="1" 
+AR Path="/5CB0C9EE/5CB15926" Ref="R7"  Part="1" 
+F 0 "R7" V 8993 800 50  0000 C CNN
+F 1 "6.8k" V 9084 800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 9130 800 50  0001 C CNN
+F 3 "~" H 9200 800 50  0001 C CNN
+	1    9200 800 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9650 1000 9650 1100
+Wire Wire Line
+	9050 800  8950 800 
+$Comp
+L Device:R R?
+U 1 1 5CB1593D
+P 10450 1200
+AR Path="/5CB1593D" Ref="R?"  Part="1" 
+AR Path="/5CB0C9EE/5CB1593D" Ref="R12"  Part="1" 
+F 0 "R12" H 10520 1246 50  0000 L CNN
+F 1 "10k" H 10520 1155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 10380 1200 50  0001 C CNN
+F 3 "~" H 10450 1200 50  0001 C CNN
+	1    10450 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 1000 10450 1000
+Wire Wire Line
+	10450 1050 10450 1000
+Connection ~ 10450 1000
+Wire Wire Line
+	10450 1000 10550 1000
+$Comp
+L power:GND #PWR?
+U 1 1 5CB15948
+P 10450 1450
+AR Path="/5CB15948" Ref="#PWR?"  Part="1" 
+AR Path="/5CB0C9EE/5CB15948" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 10450 1200 50  0001 C CNN
+F 1 "GND" H 10455 1277 50  0000 C CNN
+F 2 "" H 10450 1450 50  0001 C CNN
+F 3 "" H 10450 1450 50  0001 C CNN
+	1    10450 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 1450 10450 1350
+$Comp
+L Isolator:4N28 U?
+U 1 1 5CB17ADB
+P 10000 2100
+AR Path="/5CB17ADB" Ref="U?"  Part="1" 
+AR Path="/5CB0C9EE/5CB17ADB" Ref="U3"  Part="1" 
+F 0 "U3" H 10000 2425 50  0000 C CNN
+F 1 "4N28" H 10000 2334 50  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 9800 1900 50  0001 L CIN
+F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 10000 2100 50  0001 L CNN
+	1    10000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CB17AE2
+P 10450 1950
+AR Path="/5CB17AE2" Ref="#PWR?"  Part="1" 
+AR Path="/5CB0C9EE/5CB17AE2" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 10450 1800 50  0001 C CNN
+F 1 "+5V" H 10465 2123 50  0000 C CNN
+F 2 "" H 10450 1950 50  0001 C CNN
+F 3 "" H 10450 1950 50  0001 C CNN
+	1    10450 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 1950 10450 2100
+Wire Wire Line
+	10450 2100 10300 2100
+Text GLabel 10550 2200 2    50   Input ~ 0
+IX0.1
+Text GLabel 8950 2000 0    50   Input ~ 0
+IN1
+$Comp
+L Device:R R?
+U 1 1 5CB17AED
+P 9200 2000
+AR Path="/5CB17AED" Ref="R?"  Part="1" 
+AR Path="/5CB0C9EE/5CB17AED" Ref="R8"  Part="1" 
+F 0 "R8" V 8993 2000 50  0000 C CNN
+F 1 "6.8k" V 9084 2000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 9130 2000 50  0001 C CNN
+F 3 "~" H 9200 2000 50  0001 C CNN
+	1    9200 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 2200 9650 2200
+Wire Wire Line
+	9650 2200 9650 2300
+Wire Wire Line
+	9050 2000 8950 2000
+$Comp
+L Device:R R?
+U 1 1 5CB17B04
+P 10450 2400
+AR Path="/5CB17B04" Ref="R?"  Part="1" 
+AR Path="/5CB0C9EE/5CB17B04" Ref="R13"  Part="1" 
+F 0 "R13" H 10520 2446 50  0000 L CNN
+F 1 "10k" H 10520 2355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 10380 2400 50  0001 C CNN
+F 3 "~" H 10450 2400 50  0001 C CNN
+	1    10450 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 2200 10450 2200
+Wire Wire Line
+	10450 2250 10450 2200
+Connection ~ 10450 2200
+Wire Wire Line
+	10450 2200 10550 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5CB17B0F
+P 10450 2650
+AR Path="/5CB17B0F" Ref="#PWR?"  Part="1" 
+AR Path="/5CB0C9EE/5CB17B0F" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 10450 2400 50  0001 C CNN
+F 1 "GND" H 10455 2477 50  0000 C CNN
+F 2 "" H 10450 2650 50  0001 C CNN
+F 3 "" H 10450 2650 50  0001 C CNN
+	1    10450 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 2650 10450 2550
+$Comp
+L Isolator:4N28 U?
+U 1 1 5CB18D85
+P 10000 3350
+AR Path="/5CB18D85" Ref="U?"  Part="1" 
+AR Path="/5CB0C9EE/5CB18D85" Ref="U4"  Part="1" 
+F 0 "U4" H 10000 3675 50  0000 C CNN
+F 1 "4N28" H 10000 3584 50  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 9800 3150 50  0001 L CIN
+F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 10000 3350 50  0001 L CNN
+	1    10000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CB18D8C
+P 10450 3200
+AR Path="/5CB18D8C" Ref="#PWR?"  Part="1" 
+AR Path="/5CB0C9EE/5CB18D8C" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 10450 3050 50  0001 C CNN
+F 1 "+5V" H 10465 3373 50  0000 C CNN
+F 2 "" H 10450 3200 50  0001 C CNN
+F 3 "" H 10450 3200 50  0001 C CNN
+	1    10450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 3200 10450 3350
+Wire Wire Line
+	10450 3350 10300 3350
+Text GLabel 10550 3450 2    50   Input ~ 0
+IX0.2
+Text GLabel 8950 3250 0    50   Input ~ 0
+IN2
+$Comp
+L Device:R R?
+U 1 1 5CB18D97
+P 9200 3250
+AR Path="/5CB18D97" Ref="R?"  Part="1" 
+AR Path="/5CB0C9EE/5CB18D97" Ref="R9"  Part="1" 
+F 0 "R9" V 8993 3250 50  0000 C CNN
+F 1 "6.8k" V 9084 3250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 9130 3250 50  0001 C CNN
+F 3 "~" H 9200 3250 50  0001 C CNN
+	1    9200 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 3450 9650 3450
+Wire Wire Line
+	9650 3450 9650 3550
+Wire Wire Line
+	9050 3250 8950 3250
+$Comp
+L Device:R R?
+U 1 1 5CB18DAE
+P 10450 3650
+AR Path="/5CB18DAE" Ref="R?"  Part="1" 
+AR Path="/5CB0C9EE/5CB18DAE" Ref="R14"  Part="1" 
+F 0 "R14" H 10520 3696 50  0000 L CNN
+F 1 "10k" H 10520 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 10380 3650 50  0001 C CNN
+F 3 "~" H 10450 3650 50  0001 C CNN
+	1    10450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 3450 10450 3450
+Wire Wire Line
+	10450 3500 10450 3450
+Connection ~ 10450 3450
+Wire Wire Line
+	10450 3450 10550 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5CB18DB9
+P 10450 3900
+AR Path="/5CB18DB9" Ref="#PWR?"  Part="1" 
+AR Path="/5CB0C9EE/5CB18DB9" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 10450 3650 50  0001 C CNN
+F 1 "GND" H 10455 3727 50  0000 C CNN
+F 2 "" H 10450 3900 50  0001 C CNN
+F 3 "" H 10450 3900 50  0001 C CNN
+	1    10450 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 3900 10450 3800
+$Comp
+L Isolator:4N28 U?
+U 1 1 5CB18DC0
+P 10000 4550
+AR Path="/5CB18DC0" Ref="U?"  Part="1" 
+AR Path="/5CB0C9EE/5CB18DC0" Ref="U5"  Part="1" 
+F 0 "U5" H 10000 4875 50  0000 C CNN
+F 1 "4N28" H 10000 4784 50  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 9800 4350 50  0001 L CIN
+F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 10000 4550 50  0001 L CNN
+	1    10000 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CB18DC7
+P 10450 4400
+AR Path="/5CB18DC7" Ref="#PWR?"  Part="1" 
+AR Path="/5CB0C9EE/5CB18DC7" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 10450 4250 50  0001 C CNN
+F 1 "+5V" H 10465 4573 50  0000 C CNN
+F 2 "" H 10450 4400 50  0001 C CNN
+F 3 "" H 10450 4400 50  0001 C CNN
+	1    10450 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 4400 10450 4550
+Wire Wire Line
+	10450 4550 10300 4550
+Text GLabel 10550 4650 2    50   Input ~ 0
+IX0.3
+Text GLabel 8950 4750 0    50   Input ~ 0
+IN3.1
+Text GLabel 8950 4450 0    50   Input ~ 0
+IN3
+$Comp
+L Device:R R?
+U 1 1 5CB18DD2
+P 9200 4450
+AR Path="/5CB18DD2" Ref="R?"  Part="1" 
+AR Path="/5CB0C9EE/5CB18DD2" Ref="R10"  Part="1" 
+F 0 "R10" V 8993 4450 50  0000 C CNN
+F 1 "6.8k" V 9084 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 9130 4450 50  0001 C CNN
+F 3 "~" H 9200 4450 50  0001 C CNN
+	1    9200 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 4650 9650 4650
+Wire Wire Line
+	9650 4650 9650 4750
+Wire Wire Line
+	9050 4450 8950 4450
+$Comp
+L Device:R R?
+U 1 1 5CB18DE9
+P 10450 4850
+AR Path="/5CB18DE9" Ref="R?"  Part="1" 
+AR Path="/5CB0C9EE/5CB18DE9" Ref="R15"  Part="1" 
+F 0 "R15" H 10520 4896 50  0000 L CNN
+F 1 "10k" H 10520 4805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 10380 4850 50  0001 C CNN
+F 3 "~" H 10450 4850 50  0001 C CNN
+	1    10450 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 4650 10450 4650
+Wire Wire Line
+	10450 4700 10450 4650
+Connection ~ 10450 4650
+Wire Wire Line
+	10450 4650 10550 4650
+$Comp
+L power:GND #PWR?
+U 1 1 5CB18DF4
+P 10450 5100
+AR Path="/5CB18DF4" Ref="#PWR?"  Part="1" 
+AR Path="/5CB0C9EE/5CB18DF4" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 10450 4850 50  0001 C CNN
+F 1 "GND" H 10455 4927 50  0000 C CNN
+F 2 "" H 10450 5100 50  0001 C CNN
+F 3 "" H 10450 5100 50  0001 C CNN
+	1    10450 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 5100 10450 5000
+$Comp
+L Isolator:4N28 U?
+U 1 1 5CB1A7D4
+P 10000 5700
+AR Path="/5CB1A7D4" Ref="U?"  Part="1" 
+AR Path="/5CB0C9EE/5CB1A7D4" Ref="U6"  Part="1" 
+F 0 "U6" H 10000 6025 50  0000 C CNN
+F 1 "4N28" H 10000 5934 50  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 9800 5500 50  0001 L CIN
+F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 10000 5700 50  0001 L CNN
+	1    10000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CB1A7DB
+P 10450 5550
+AR Path="/5CB1A7DB" Ref="#PWR?"  Part="1" 
+AR Path="/5CB0C9EE/5CB1A7DB" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 10450 5400 50  0001 C CNN
+F 1 "+5V" H 10465 5723 50  0000 C CNN
+F 2 "" H 10450 5550 50  0001 C CNN
+F 3 "" H 10450 5550 50  0001 C CNN
+	1    10450 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 5550 10450 5700
+Wire Wire Line
+	10450 5700 10300 5700
+Text GLabel 10550 5800 2    50   Input ~ 0
+IX0.4
+Text GLabel 8950 5900 0    50   Input ~ 0
+IN4.1
+Text GLabel 8950 5600 0    50   Input ~ 0
+IN4
+$Comp
+L Device:R R?
+U 1 1 5CB1A7E6
+P 9200 5600
+AR Path="/5CB1A7E6" Ref="R?"  Part="1" 
+AR Path="/5CB0C9EE/5CB1A7E6" Ref="R11"  Part="1" 
+F 0 "R11" V 8993 5600 50  0000 C CNN
+F 1 "6.8k" V 9084 5600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 9130 5600 50  0001 C CNN
+F 3 "~" H 9200 5600 50  0001 C CNN
+	1    9200 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 5800 9650 5800
+Wire Wire Line
+	9650 5800 9650 5900
+Wire Wire Line
+	9050 5600 8950 5600
+$Comp
+L Device:R R?
+U 1 1 5CB1A7FD
+P 10450 6000
+AR Path="/5CB1A7FD" Ref="R?"  Part="1" 
+AR Path="/5CB0C9EE/5CB1A7FD" Ref="R16"  Part="1" 
+F 0 "R16" H 10520 6046 50  0000 L CNN
+F 1 "10k" H 10520 5955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 10380 6000 50  0001 C CNN
+F 3 "~" H 10450 6000 50  0001 C CNN
+	1    10450 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 5800 10450 5800
+Wire Wire Line
+	10450 5850 10450 5800
+Connection ~ 10450 5800
+Wire Wire Line
+	10450 5800 10550 5800
+$Comp
+L power:GND #PWR?
+U 1 1 5CB1A808
+P 10450 6250
+AR Path="/5CB1A808" Ref="#PWR?"  Part="1" 
+AR Path="/5CB0C9EE/5CB1A808" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 10450 6000 50  0001 C CNN
+F 1 "GND" H 10455 6077 50  0000 C CNN
+F 2 "" H 10450 6250 50  0001 C CNN
+F 3 "" H 10450 6250 50  0001 C CNN
+	1    10450 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 6250 10450 6150
+Text GLabel 2050 1200 0    50   Input ~ 0
+AN0
+$Comp
+L Device:R R1
+U 1 1 5CB20889
+P 2300 1350
+F 0 "R1" H 2370 1396 50  0000 L CNN
+F 1 "250ohm/1%" H 2370 1305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 2230 1350 50  0001 C CNN
+F 3 "~" H 2300 1350 50  0001 C CNN
+	1    2300 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 1200 2    50   Input ~ 0
+IW0.0
+$Comp
+L power:GND #PWR05
+U 1 1 5CB20A8D
+P 2300 1650
+F 0 "#PWR05" H 2300 1400 50  0001 C CNN
+F 1 "GND" H 2305 1477 50  0000 C CNN
+F 2 "" H 2300 1650 50  0001 C CNN
+F 3 "" H 2300 1650 50  0001 C CNN
+	1    2300 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1650 2300 1500
+Wire Wire Line
+	2050 1200 2300 1200
+Wire Wire Line
+	2300 1200 2600 1200
+Connection ~ 2300 1200
+Text GLabel 2050 2050 0    50   Input ~ 0
+AN1
+$Comp
+L Device:R R2
+U 1 1 5CB25F2B
+P 2300 2200
+F 0 "R2" H 2370 2246 50  0000 L CNN
+F 1 "250ohm/1%" H 2370 2155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 2230 2200 50  0001 C CNN
+F 3 "~" H 2300 2200 50  0001 C CNN
+	1    2300 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 2050 2    50   Input ~ 0
+IW0.1
+$Comp
+L power:GND #PWR06
+U 1 1 5CB25F33
+P 2300 2500
+F 0 "#PWR06" H 2300 2250 50  0001 C CNN
+F 1 "GND" H 2305 2327 50  0000 C CNN
+F 2 "" H 2300 2500 50  0001 C CNN
+F 3 "" H 2300 2500 50  0001 C CNN
+	1    2300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2500 2300 2350
+Wire Wire Line
+	2050 2050 2300 2050
+Wire Wire Line
+	2300 2050 2600 2050
+Connection ~ 2300 2050
+Text GLabel 2050 2950 0    50   Input ~ 0
+AN2
+$Comp
+L Device:R R4
+U 1 1 5CB27CA7
+P 2300 3500
+F 0 "R4" H 2370 3546 50  0000 L CNN
+F 1 "250ohm/1%" H 2370 3455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 2230 3500 50  0001 C CNN
+F 3 "~" H 2300 3500 50  0001 C CNN
+	1    2300 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 3350 2    50   Input ~ 0
+IW0.2
+$Comp
+L power:GND #PWR07
+U 1 1 5CB27CAF
+P 2300 3800
+F 0 "#PWR07" H 2300 3550 50  0001 C CNN
+F 1 "GND" H 2305 3627 50  0000 C CNN
+F 2 "" H 2300 3800 50  0001 C CNN
+F 3 "" H 2300 3800 50  0001 C CNN
+	1    2300 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3800 2300 3650
+Wire Wire Line
+	2300 3350 2600 3350
+$Comp
+L Device:R R3
+U 1 1 5CB298CA
+P 2300 3150
+F 0 "R3" H 2370 3196 50  0000 L CNN
+F 1 "250ohm/1%" H 2370 3105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 3150 50  0001 C CNN
+F 3 "~" H 2300 3150 50  0001 C CNN
+	1    2300 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3350 2300 3300
+Connection ~ 2300 3350
+Wire Wire Line
+	2050 2950 2300 2950
+Wire Wire Line
+	2300 2950 2300 3000
+Text GLabel 2050 4250 0    50   Input ~ 0
+AN3
+$Comp
+L Device:R R6
+U 1 1 5CB2D240
+P 2300 4800
+F 0 "R6" H 2370 4846 50  0000 L CNN
+F 1 "250ohm/1%" H 2370 4755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" V 2230 4800 50  0001 C CNN
+F 3 "~" H 2300 4800 50  0001 C CNN
+	1    2300 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 4650 2    50   Input ~ 0
+IW0.3
+$Comp
+L power:GND #PWR08
+U 1 1 5CB2D248
+P 2300 5100
+F 0 "#PWR08" H 2300 4850 50  0001 C CNN
+F 1 "GND" H 2305 4927 50  0000 C CNN
+F 2 "" H 2300 5100 50  0001 C CNN
+F 3 "" H 2300 5100 50  0001 C CNN
+	1    2300 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5100 2300 4950
+Wire Wire Line
+	2300 4650 2600 4650
+$Comp
+L Device:R R5
+U 1 1 5CB2D250
+P 2300 4450
+F 0 "R5" H 2370 4496 50  0000 L CNN
+F 1 "250ohm/1%" H 2370 4405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 4450 50  0001 C CNN
+F 3 "~" H 2300 4450 50  0001 C CNN
+	1    2300 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4650 2300 4600
+Connection ~ 2300 4650
+Wire Wire Line
+	2050 4250 2300 4250
+Wire Wire Line
+	2300 4250 2300 4300
+NoConn ~ 10300 4450
+NoConn ~ 10300 5600
+NoConn ~ 10300 800 
+NoConn ~ 10300 2000
+NoConn ~ 10300 3250
+Wire Wire Line
+	9350 3250 9700 3250
+Wire Wire Line
+	8950 3550 9650 3550
+Wire Wire Line
+	9350 4450 9700 4450
+Wire Wire Line
+	8950 4750 9650 4750
+Wire Wire Line
+	9350 2000 9700 2000
+Wire Wire Line
+	8950 2300 9650 2300
+Wire Wire Line
+	9350 800  9700 800 
+Wire Wire Line
+	8950 1100 9650 1100
+Wire Wire Line
+	9350 5600 9700 5600
+Wire Wire Line
+	8950 5900 9650 5900
+Text GLabel 8950 3550 0    50   Input ~ 0
+IN2.1
+Text GLabel 8950 2300 0    50   Input ~ 0
+IN1.1
+Wire Wire Line
+	9700 1000 9650 1000
+$EndSCHEMATC

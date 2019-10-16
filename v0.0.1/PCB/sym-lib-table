@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name DC-DC_Generic)(type Legacy)(uri "C:/Users/lamas/Dropbox/Galvan PLC/KiCAD/Shield/Protos UNO v0.0.2/Library/DC-DC_Generic.lib")(options "")(descr ""))
+  (lib (name Proto-rescue)(type Legacy)(uri ${KIPRJMOD}/Proto-rescue.lib)(options "")(descr ""))
+)
